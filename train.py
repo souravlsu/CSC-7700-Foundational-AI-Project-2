@@ -14,6 +14,9 @@ from model_lstm import LSTMLanguageModel
 from model_rnn import RNNLanguageModel
 from model_transformer import TransformerLanguageModel
 
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 # Setting training parameters
 BATCH_SIZE = 128
 EPOCHS = 30
