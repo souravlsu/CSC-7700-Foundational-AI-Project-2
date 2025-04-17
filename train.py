@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 BATCH_SIZE = 128
 EPOCHS = 30
 LR = 1e-3
-MAX_LEN = 128
+MAX_LEN = 512
 
 # Registering supported model types
 MODEL_REGISTRY = {
