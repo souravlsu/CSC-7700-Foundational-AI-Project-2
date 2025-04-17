@@ -126,13 +126,3 @@ The wizard said he would return to the castle by morning, and everyone believed 
 - Text generation uses greedy sampling via temperature-adjusted multinomial.
 
 ---
-
-## 📚 License
-
-MIT License. Use for research and educational purposes.
-
----
-
-## 🙌 Acknowledgments
-
-Inspired by foundational NLP architectures and PyTorch best practices.
