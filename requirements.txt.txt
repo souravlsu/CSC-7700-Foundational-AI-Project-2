@@ -1,0 +1,24 @@
+# Core libraries
+torch>=1.12.0
+sentencepiece>=0.1.99
+nltk>=3.8.1
+
+# For plotting loss curves
+matplotlib>=3.7.1
+
+# Optional: tqdm can be helpful for progress bars during training/evaluation
+tqdm>=4.66.1
+
+# If using Python 3.10+ and torch on CUDA:
+# - Make sure to install torch with the appropriate CUDA version using pip or from https://pytorch.org/
+
+# If using notebooks or interactive environments
+# jupyterlab  # Uncomment if working in notebooks
+
+# System dependencies (note: not Python packages, just reminders)
+# pip install wheel setuptools --upgrade  # Good to ensure compatibility
+
+# Development tools (optional)
+# black         # For code formatting
+# isort         # For sorting imports
+# flake8        # For linting
