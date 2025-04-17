@@ -9,6 +9,8 @@ from pathlib import Path
 from model_lstm import LSTMLanguageModel
 from model_rnn import RNNLanguageModel
 from model_transformer import TransformerLanguageModel
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Registering all supported model architectures
 MODEL_REGISTRY = {
