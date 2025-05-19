@@ -7,10 +7,10 @@ This project implements and compares three neural network-based language models 
 ## 📁 Project Structure
 
 ```
-├── data/                    # Raw .txt files and JSONL datasets
+├── data/                   # Raw .txt files and JSONL datasets
 │   ├── train.jsonl
 │   ├── test.jsonl
-│   └── *.txt                # Raw text files for tokenizer
+│   └── *.txt               # Raw text files for tokenizer
 │
 ├── tokenizer/              # Trained SentencePiece model
 │   ├── spm.model
